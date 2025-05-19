@@ -1,6 +1,6 @@
 import tkinter as tk 
 class TelaInicial:
-    def __intit__(self, master, ir_para_cadastro):
+    def __init__(self, master, ir_para_cadastro):
         self.frame = tk.Frame(master)
         self.frame.pack()
         self.label = tk.Label(self.frame, text="Bem-vindo ao sistema!")
