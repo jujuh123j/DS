@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from estante_de_livros import Livro, Estante # Assumindo que suas classes estão em outro arquivo
+from modelos import Livro, Estante # Assumindo que suas classes estão em outro arquivo
 
 app = Flask(__name__)
 
